@@ -1,35 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Exercício 2</title>
+<style>
+    img{
+        width:20%;
+        height:80%;
+    }
+    video{
+        width: 20%;
+        height: 80%;
+    }
+</style>
 </head>
 <body>
-    <div class="a">
+    <header>
         <h1>Simulador de climas</h1>
-    </div>
+    </header>
     
-    <div class="b">
+    <main>
     
-        <div class="c">
-            <div class="d">
+        <section>
+            <article>
                 <h2>Chuva</h2>
-            </div>
-            <div class="d">
+                <img src="./media/chuva.jpeg" alt="Foto chuva">
+                <audio src="./media/chuva.mp3" controls loop></audio>
+                <video src="./media/chuva.mp4" controls></video>
+            </article>
+            <article>
                 <h2>Animais no mato</h2>
-            </div>
-            <div class="d">
+                <img src="./media/animais.jpeg" alt="Foto de pássaros">
+                <audio src="./media/animais.mp3" controls></audio>
+                <video src="./media/animais.mp4" controls></video>
+            </article>
+            <article>
                 <h2>Tempestade</h2>
-            </div>
-        </div>
+                <img src="./media/tempestade.jpeg" alt="foto tempestade">
+                <audio src="./media/tempestade.mp3" controls>
+                    Seu navegador não pode carregar este áudio.
+                </audio>
+                <video src="./media/tempestade.mp4" controls>
+                    Seu navegador não pode carregar este vídeo
+                </video>
+            </article>
+           
+        </section>
     
-    </div>
-    <div class="e">
-        <p>Sugira um clima!</p>
-    </div>
+    </main>
+    <footer>
+        <p>Clique <a href="./sugestao.html" target="_blank">aqui</a> para sugerir um clima um clima!</p>
+    </footer>
     
 </body>
 </html>
